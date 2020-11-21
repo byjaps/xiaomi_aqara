@@ -35,7 +35,7 @@ async def async_setup_entry(hass, config_entry, async_add_entities):
     for entity in gateway.devices["binary_sensor"]:
         model = entity["model"]
         if model in ["motion", "sensor_motion", "sensor_motion.aq2"]:
-            entities.append(XiaomiMotionSensor(entity, hass, gateway, config_entry))
+            entities.append(XiaomiMotionSensor(entity, hass, gateway, config_entry, HARDWARE_MODIFIED))
         elif model in ["magnet", "sensor_magnet", "sensor_magnet.aq2"]:
             entities.append(XiaomiDoorSensor(entity, gateway, config_entry))
         elif model == "sensor_wleak.aq1":
