@@ -277,7 +277,7 @@ class XiaomiMotionSensor(XiaomiBinarySensor):
                 if self._unsub_set_no_motion:
                     self._unsub_set_no_motion()
                 self._unsub_set_no_motion = async_call_later(
-                    self._hass, 120, self._async_set_no_motion
+                    self._hass, delay, self._async_set_no_motion
                 )
 
             if self.entity_id is not None:
