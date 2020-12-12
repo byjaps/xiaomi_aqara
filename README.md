@@ -12,7 +12,8 @@ With this change, the motion sensors will:
   - staying "on" for 12 seconds
   - after another more 50 seconds, it will detect movement again.
 
-  {62 seconds between detections}
+     < 62 seconds between detections >
+
 
 If you change their hardware:
 (https://community.smartthings.com/t/making-xiaomi-motion-sensor-a-super-motion-sensor/139806)
