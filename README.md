@@ -1,5 +1,4 @@
 # xiaomi_aqara
-Gateway Xiaomi 1 min retrigger
 
 Works with mijia and aqara motion sensors paired with Xiaomi's gateway. 
 
