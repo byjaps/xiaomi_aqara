@@ -11,6 +11,7 @@ With this change, the motion sensors will:
   - detect movement
   - staying "on" for 12 seconds
   - after another more 50 seconds, it will detect movement again.
+
   {62 seconds between detections}
 
 If you change their hardware:
